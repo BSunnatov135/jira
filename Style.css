@@ -216,7 +216,16 @@ li a {
     padding: 16px;
     min-height: 1px;
     display: block;
+    animation-name: board-image;
+    animation-duration: 2s;
+    animation-play-state: running;
+    animation-timing-function: inherit;
 }
+@keyframes board-image {
+    from {opacity:0}
+    to {opacity: 100%;}
+}
+
 .boardimg {
     flex: 1;
     max-width: 100%;
@@ -276,7 +285,7 @@ li a {
     box-sizing: border-box;
     animation-name: release;
     animation-duration: 4s;
-    animation-delay: 3s;
+  
     animation-fill-mode: forwards;
 }
 @keyframes release {
@@ -334,6 +343,13 @@ li a {
     width: 67%;
     float: left;
     min-height: 1px;
+    animation-name: process;
+    animation-duration: 2s;
+    
+}
+@keyframes process {
+    from {opacity: 0;}
+    to {opacity: 100%;}
 }
 .integ {
     text-align: center;
