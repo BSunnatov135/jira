@@ -771,7 +771,7 @@ li a {
     background-color: #fff;
     border-radius: 3px;
     margin:0;
-    height: auto;
+    height: 100%;
 }
 .trulia-icon {
     margin-bottom: 32px;
