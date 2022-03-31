@@ -218,8 +218,7 @@ li a {
     display: block;
     animation-name: board-image;
     animation-duration: 2s;
-    animation-play-state: running;
-    animation-timing-function: inherit;
+    animation-iteration-count: infinite;
 }
 @keyframes board-image {
     from {opacity:0}
